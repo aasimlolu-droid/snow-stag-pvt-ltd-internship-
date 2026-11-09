@@ -20,7 +20,7 @@ teacher3 = Teacher(103, "Fatima", "Computer Science")
 
 # Displaying teacher details
 print("TEACHER INFORMATION")
-print("======================")
+print("++++++++++++++++++=")
 
 teacher1.display_info()
 teacher2.display_info()
