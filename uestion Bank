@@ -1,0 +1,41 @@
+
+class Question:
+    def __init__(self, qid, text, subject, teacher, marks):
+        self.qid = qid
+        self.text = text
+        self.subject = subject
+        self.teacher = teacher
+        self.marks = marks
+
+
+# Sample questions submitted by teachers
+
+q1 = Question(1, "What is 5 + 5?", "Mathematics", "Teacher A", 2)
+q2 = Question(2, "Solve 10 x 4.", "Mathematics", "Teacher A", 2)
+q3 = Question(3, "What is a prime number?", "Mathematics", "Teacher A", 3)
+
+q4 = Question(4, "What is a noun?", "English", "Teacher B", 2)
+q5 = Question(5, "Define a verb.", "English", "Teacher B", 2)
+q6 = Question(6, "Write the opposite of Happy.", "English", "Teacher B", 1)
+
+q7 = Question(7, "What is photosynthesis?", "Science", "Teacher C", 3)
+q8 = Question(8, "Name the nearest star to Earth.", "Science", "Teacher C", 2)
+q9 = Question(9, "What is the human heart?", "Science", "Teacher C", 3)
+q10 = Question(10, "What is water made of?", "Science", "Teacher C", 2)
+
+
+# Creating the question bank
+
+question_bank = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
+
+
+# Displaying the questions
+
+print("Welcome to the Question Bank")
+
+for q in question_bank:
+    print("\nQuestion ID:", q.qid)
+    print("Question:", q.text)
+    print("Subject:", q.subject)
+    print("Teacher Name:", q.teacher)
+    print("Marks:", q.marks)
