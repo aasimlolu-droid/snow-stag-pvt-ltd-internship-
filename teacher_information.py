@@ -34,14 +34,13 @@ teachers = [
     }
 ]
 
-# Display all teacher information
+# Display all eacher information
 
 print("Teacher Information")
-print("-------------------")
 
 for teacher in teachers:
     print("Teacher ID:", teacher["Teacher ID"])
     print("Teacher Name:", teacher["Teacher Name"])
     print("Subject:", teacher["Subject"])
     print("Email Address:", teacher["Email Address"])
-    print("-------------------")
+   
